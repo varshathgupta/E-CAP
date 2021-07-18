@@ -2098,3 +2098,39 @@ h1, h2, h3, h4, h5,
   color: #32dbc6;
 }
 
+
+
+ .clients-wrap {
+   
+  display: block;
+  width: 95%;
+  margin: 0 auto;
+  overflow: hidden;
+}
+.clients-wrap ul {
+  
+  display: block;
+  list-style: none;
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+}
+.clients-wrap ul li {
+  display: block;
+  float: left;
+  line-height: 100px;
+  position: relative;
+  width: 180px;
+  height: 100px;
+  
+  text-align: center;
+}
+.clients-wrap ul li img {
+  vertical-align: middle;
+  max-width: 100%;
+  width:150px;
+  max-height: 100%;
+  -webkit-transition: 0 linear left;
+  -moz-transition: 0 linear left;
+  transition: 0 linear left;
+}
